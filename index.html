@@ -28,6 +28,19 @@
 .banner-image{
   background-image: url(c1-assets/cat-big.png);
 }
+/* animation style */
+@keyframes move {
+            0% {
+                transform: translateX(0);
+            }
+            100% {
+                transform: translateX(200px);
+            }
+        }
+
+        .animate-move {
+            animation: move 2s infinite alternate;
+        }
 
 </style>
 <script>
@@ -169,10 +182,10 @@
       </div>
 
       <!-- section-2 -->
-       <div class="grid grid-cols-2 lg:grid-cols-3 space-x-1 space-y-1">
+       <div class="grid grid-cols-2 lg:grid-cols-3 h-full w-full lg:space-x-4 space-x-2 lg:space-y-4 space-y-2">
 
 <!-- card 1 -->
-<div class="flex h-[118px] border border-2 gap-2 p-2 lg:py-4 lg:pl-4 lg:pr-20 bg-white">
+<div class=" mt-4 flex h-[118px] gap-2 p-2 lg:py-4 lg:pl-4 lg:pr-20 bg-white">
   <!-- card image -->
       <div class="p-[19px] w-[86x] h-[86px] bg-[#FFF9F4]">
         <img class="w-[48px] h-[48px]" src="c1-assets/dog-cartoon.png" alt="">
@@ -181,17 +194,17 @@
 <div>
 <div class="flex items-center gap-1">
 <i class="fa-solid fa-star text-[#FFC107]"></i>
-<p>4.5</p>
+<p class="sora-font font-normal text-base text-[#111111]">4.5</p>
 </div>
 
 <div>
-<h3 class="font-medium text-[#111111]">Pet Bed</h3>
-<p>$39.99</p>
+<h3 class="font-medium text-[#111111] sora-font">Pet Bed</h3>
+<p class="sora-font font-medium text-base text-[#111111]">$39.99</p>
 </div>
 </div>
 </div>
-<!-- card 1 -->
-<div class="flex h-[118px] border border-2 gap-2 p-2 lg:py-4 lg:pl-4 lg:pr-20 bg-white">
+<!-- card 2 -->
+<div class="flex h-[118px] gap-2 p-2 lg:py-4 lg:pl-4 lg:pr-20 bg-white">
   <!-- card image -->
       <div class="p-[19px] w-[86x] h-[86px] bg-[#FFF9F4]">
         <img class="w-[48px] h-[48px]" src="c1-assets/dog-cartoon.png" alt="">
@@ -200,17 +213,17 @@
 <div>
 <div class="flex items-center gap-1">
 <i class="fa-solid fa-star text-[#FFC107]"></i>
-<p>4.5</p>
+<p class="sora-font font-normal text-base text-[#111111]">4.5</p>
 </div>
 
 <div>
-<h3 class="font-medium text-[#111111]">Pet Bed</h3>
-<p>$39.99</p>
+<h3 class="font-medium text-[#111111] sora-font">Pet Bed</h3>
+<p class="sora-font font-medium text-base text-[#111111]">$39.99</p>
 </div>
 </div>
 </div>
-<!-- card 1 -->
-<div class="flex h-[118px] border border-2 gap-2 p-2 lg:py-4 lg:pl-4 lg:pr-20 bg-white">
+<!-- card 3 -->
+<div class="flex h-[118px] gap-2 p-2 lg:py-4 lg:pl-4 lg:pr-20 bg-white">
   <!-- card image -->
       <div class="p-[19px] w-[86x] h-[86px] bg-[#FFF9F4]">
         <img class="w-[48px] h-[48px]" src="c1-assets/dog-cartoon.png" alt="">
@@ -219,17 +232,17 @@
 <div>
 <div class="flex items-center gap-1">
 <i class="fa-solid fa-star text-[#FFC107]"></i>
-<p>4.5</p>
+<p class="sora-font font-normal text-base text-[#111111]">4.5</p>
 </div>
 
 <div>
-<h3 class="font-medium text-[#111111]">Pet Bed</h3>
-<p>$39.99</p>
+<h3 class="font-medium text-[#111111] sora-font">Pet Bed</h3>
+<p class="sora-font font-medium text-base text-[#111111]">$39.99</p>
 </div>
 </div>
 </div>
-<!-- card 1 -->
-<div class="flex h-[118px] border border-2 gap-2 p-2 lg:py-4 lg:pl-4 lg:pr-20 bg-white">
+<!-- card 4 -->
+<div class="flex h-[118px] gap-2 p-2 lg:py-4 lg:pl-4 lg:pr-20 bg-white">
   <!-- card image -->
       <div class="p-[19px] w-[86x] h-[86px] bg-[#FFF9F4]">
         <img class="w-[48px] h-[48px]" src="c1-assets/dog-cartoon.png" alt="">
@@ -238,17 +251,17 @@
 <div>
 <div class="flex items-center gap-1">
 <i class="fa-solid fa-star text-[#FFC107]"></i>
-<p>4.5</p>
+<p class="sora-font font-normal text-base text-[#111111]">4.5</p>
 </div>
 
 <div>
-<h3 class="font-medium text-[#111111]">Pet Bed</h3>
-<p>$39.99</p>
+<h3 class="font-medium text-[#111111] sora-font">Pet Bed</h3>
+<p class="sora-font font-medium text-base text-[#111111]">$39.99</p>
 </div>
 </div>
 </div>
-<!-- card 1 -->
-<div class="flex h-[118px] border border-2 gap-2 p-2 lg:py-4 lg:pl-4 lg:pr-20 bg-white">
+<!-- card 5 -->
+<div class="flex h-[118px] gap-2 p-2 lg:py-4 lg:pl-4 lg:pr-20 bg-white">
   <!-- card image -->
       <div class="p-[19px] w-[86x] h-[86px] bg-[#FFF9F4]">
         <img class="w-[48px] h-[48px]" src="c1-assets/dog-cartoon.png" alt="">
@@ -257,17 +270,17 @@
 <div>
 <div class="flex items-center gap-1">
 <i class="fa-solid fa-star text-[#FFC107]"></i>
-<p>4.5</p>
+<p class="sora-font font-normal text-base text-[#111111]">4.5</p>
 </div>
 
 <div>
-<h3 class="font-medium text-[#111111]">Pet Bed</h3>
-<p>$39.99</p>
+<h3 class="font-medium text-[#111111] sora-font">Pet Bed</h3>
+<p class="sora-font font-medium text-base text-[#111111]">$39.99</p>
 </div>
 </div>
 </div>
-<!-- card 1 -->
-<div class="flex h-[118px] border border-2 gap-2 p-2 lg:py-4 lg:pl-4 lg:pr-20 bg-white">
+<!-- card 6 -->
+<div class="flex h-[118px] gap-2 p-2 lg:py-4 lg:pl-4 lg:pr-20 bg-white">
   <!-- card image -->
       <div class="p-[19px] w-[86x] h-[86px] bg-[#FFF9F4]">
         <img class="w-[48px] h-[48px]" src="c1-assets/dog-cartoon.png" alt="">
@@ -276,17 +289,17 @@
 <div>
 <div class="flex items-center gap-1">
 <i class="fa-solid fa-star text-[#FFC107]"></i>
-<p>4.5</p>
+<p class="sora-font font-normal text-base text-[#111111]">4.5</p>
 </div>
 
 <div>
-<h3 class="font-medium text-[#111111]">Pet Bed</h3>
-<p>$39.99</p>
+<h3 class="font-medium text-[#111111] sora-font">Pet Bed</h3>
+<p class="sora-font font-medium text-base text-[#111111]">$39.99</p>
 </div>
 </div>
 </div>
-<!-- card 1 -->
-<div class="flex h-[118px] border border-2 gap-2 p-2 lg:py-4 lg:pl-4 lg:pr-20 bg-white">
+<!-- card 7 -->
+<div class=" flex h-[118px] gap-2 p-2 lg:py-4 lg:pl-4 lg:pr-20 bg-white">
   <!-- card image -->
       <div class="p-[19px] w-[86x] h-[86px] bg-[#FFF9F4]">
         <img class="w-[48px] h-[48px]" src="c1-assets/dog-cartoon.png" alt="">
@@ -295,17 +308,17 @@
 <div>
 <div class="flex items-center gap-1">
 <i class="fa-solid fa-star text-[#FFC107]"></i>
-<p>4.5</p>
+<p class="sora-font font-normal text-base text-[#111111]">4.5</p>
 </div>
 
 <div>
-<h3 class="font-medium text-[#111111]">Pet Bed</h3>
-<p>$39.99</p>
+<h3 class="font-medium text-[#111111] sora-font">Pet Bed</h3>
+<p class="sora-font font-medium text-base text-[#111111]">$39.99</p>
 </div>
 </div>
 </div>
-<!-- card 1 -->
-<div class="flex h-[118px] border border-2 gap-2 p-2 lg:py-4 lg:pl-4 lg:pr-20 bg-white">
+<!-- card 8 -->
+<div class="flex h-[118px] gap-2 p-2 lg:py-4 lg:pl-4 lg:pr-20 bg-white">
   <!-- card image -->
       <div class="p-[19px] w-[86x] h-[86px] bg-[#FFF9F4]">
         <img class="w-[48px] h-[48px]" src="c1-assets/dog-cartoon.png" alt="">
@@ -314,17 +327,17 @@
 <div>
 <div class="flex items-center gap-1">
 <i class="fa-solid fa-star text-[#FFC107]"></i>
-<p>4.5</p>
+<p class="sora-font font-normal text-base text-[#111111]">4.5</p>
 </div>
 
 <div>
-<h3 class="font-medium text-[#111111]">Pet Bed</h3>
-<p>$39.99</p>
+<h3 class="font-medium text-[#111111] sora-font">Pet Bed</h3>
+<p class="sora-font font-medium text-base text-[#111111]">$39.99</p>
 </div>
 </div>
 </div>
-<!-- card 1 -->
-<div class=" hidden lg:block lg:flex lg:h-[118px] lg:border lg:border-2 lg:gap-2 lg:p-2 lg:py-4 lg:pl-4 lg:pr-20 bg-white">
+<!-- card 9 -->
+<div class=" hidden lg:block lg:flex lg:h-[118px] lg:gap-2 lg:p-2 lg:py-4 lg:pl-4 lg:pr-20 bg-white">
   <!-- card image -->
       <div class="p-[19px] w-[86x] h-[86px] bg-[#FFF9F4]">
         <img class="w-[48px] h-[48px]" src="c1-assets/dog-cartoon.png" alt="">
@@ -333,12 +346,12 @@
 <div>
 <div class="flex items-center gap-1">
 <i class="fa-solid fa-star text-[#FFC107]"></i>
-<p>4.5</p>
+<p class="sora-font font-normal text-base text-[#111111]">4.5</p>
 </div>
 
 <div>
-<h3 class="font-medium text-[#111111]">Pet Bed</h3>
-<p>$39.99</p>
+<h3 class="font-medium text-[#111111] sora-font">Pet Bed</h3>
+<p class="sora-font font-medium text-base text-[#111111]">$39.99</p>
 </div>
 </div>
 </div>
@@ -349,6 +362,39 @@
 </div>
       </section>
 
+<!--extra part section -->
+<div class="hero lg:mt-32 mt-10 lg:max-w-[1320px] mx-0 lg:mx-auto bg-[#FFF9F4]">
+  
+  
+
+
+  <div class="hero-content gap-10 flex-col lg:flex-row h-full">
+    <img 
+      src="c1-assets/healthy-cat.jpeg"
+      class="max-w-sm rounded-lg shadow-2xl" />
+    <div>
+      <!-- animation style -->
+      <div class="w-40 h-20 bg-red-600 animate-move"></div>
+      <h1 class="text-4xl mt-5 font-normal  adlam-display-font">Resources for cat lovers</h1>
+      <br>
+      <h1 class="text-3xl font-normal  adlam-display-font">Cats and neighbours</h1>
+  
+      <p class="text-base mt-1 text-xl sora-font">
+        In this section we would like to Introduce our comprehensive assets on engaging with neighbours about their cats. We understand that addressing such concerns can be delicate, which is why we want to provide guidance on initiating open and respectful dialogues.
+      </p>
+      <h1 class="text-3xl mt-2 font-normal  adlam-display-font">
+        Stray cats
+      </h1>
+      <p class=" mt-1 text-xl sora-font">Find useful information about stray cats in this section to guide you and assist you if you find a stray cat or kitten.</p>
+
+      <h1 class="text-3xl mt-2 font-normal  adlam-display-font">Cat care</h1>
+      <p class="sora-font text-xl  mt-1">We cover a wide range of topics to help you become a responsible and knowledgeable cat guardian. By following the advice and recommendations provided in this section, you can ensure that your feline companion receives the love, care, and attention they deserve.</p>
+      
+      
+    </div>
+  </div>
+</div>
+      
       
     </main>
 </body>
